@@ -1,0 +1,29 @@
+Problem 1 : Link Integrity Audit
+Imagine you’re auditing your company’s homepage for all <a> tags to ensure link integrity. Your task is to write JavaScript code that accomplishes the following:
+
+(a) Count the Link
+(b) Print the Link Names
+----------------------------------------------------------------------------------------
+
+Problem 2 : List Item Numbering 
+Your organization’s project dashboard features an unordered list (<ul>) that displays several tasks without numbering. 
+
+(a) Your mission is to automate the numbering of these tasks.
+----------------------------------------------------------------------------------------
+
+Problem 3 : Header Prefix 
+Your HTML page contains multiple header elements—specifically <h1> and <h2>. Your mission is to update their text content in two distinct ways.
+
+(a) For <h1> elements:
+Prefix each header's existing text with "Chapter: ".
+
+(b) For <h2> elements:
+Prefix each header's existing text with "Section: ".
+----------------------------------------------------------------------------------------
+
+Problem 4: Paragraph "Read More" Prompt
+Your webpage contains several <p> elements that hold article summaries. Your task is to automatically append a " - Read More" prompt to the end of each paragraph.
+----------------------------------------------------------------------------------------
+
+Problem 5: Span Emphasis Update
+Your webpage features multiple <span> elements used for highlighting key terms. Your mission is to add an "Important: " prefix to each <span> to make these elements stand out.
