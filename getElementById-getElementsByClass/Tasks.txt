@@ -1,0 +1,27 @@
+Problem 1 : Your webpage contains a header element with a unique id and several content sections marked with a class.
+
+(a) Update the Header text to "Welcome to My Website".
+(b) Update the Sections by appending the text " - Section updated" to their current text content.
+
+----------------------------------------------------------------------------------------
+
+Problem 2 : Your webpage contains a section that holds multiple color boxes. This section has a unique id, and each color box has a common class.
+
+(a) Change the background color of each "color-box" to "lightblue".
+
+----------------------------------------------------------------------------------------
+
+Problem 3 : Your HTML page has a navigation bar with a unique id. Inside the nav bar, multiple link elements share a common class.
+
+(a) Update the text of each navigation item by prepending the string "Menu: " to its existing text.
+
+----------------------------------------------------------------------------------------
+
+Problem 4 : Your webpage features multiple information cards that are initially visible. There’s also a button to toggle the display of these cards.
+
+(a) When the toggle button is clicked, loop through all "info-card" elements and change their display style.
+
+(b) If a card is visible (e.g., display: block), hide it (set display: none), and vice versa.
+
+----------------------------------------------------------------------------------------
+
