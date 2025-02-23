@@ -1,7 +1,7 @@
 Problem 1 : Your webpage contains a header element with a unique id and several content sections marked with a class.
 
 (a) Update the Header text to "Welcome to My Website".
-(b) Update the Sections by appending the text " - Section updated" to their current text content.
+(b) Update the Sections to the text " - Section updated" to their current text content.
 
 ----------------------------------------------------------------------------------------
 
