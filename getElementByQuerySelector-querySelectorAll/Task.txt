@@ -1,0 +1,24 @@
+Problem 1: Update a Header 
+
+Use querySelector to select the element with the id "header-title" and update its text content to "Welcome to My Website".
+----------------------------------------------------------------------------------------
+Problem 2: Append Text to Multiple List Items
+
+Use querySelectorAll to select all elements with the class "list-item" and append " - Updated" to each element's text content.
+----------------------------------------------------------------------------------------
+Problem 3: Select and Update a Nested Paragraph
+
+Use querySelector with a descendant selector to select the first <p> element inside a <div> with the class "content". Change its text to "Content updated!".
+----------------------------------------------------------------------------------------
+Problem 4: Number List Items in an Unordered List
+
+Use querySelectorAll to select all <li> elements inside an unordered list with the id "task-list". Iterate over the list and prefix each item's text with its index number (starting at 1).
+----------------------------------------------------------------------------------------
+Problem 5: Update an Input Field Using an Attribute Selector
+
+Use querySelector to select the <input> element that has a placeholder attribute with the value "Search...". Set its value to "Hello!".
+----------------------------------------------------------------------------------------
+Problem 6: Change Background Color of Direct Child Divs
+
+Use querySelectorAll to select all <div> elements that are direct children of an element with the class "card-container". Change the background color of each selected <div> to "lightgreen".
+----------------------------------------------------------------------------------------
