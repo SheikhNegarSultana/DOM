@@ -1,0 +1,58 @@
+Problem 1: User Profile Card Update
+Your webpage contains a user profile card. The profile card is a <div> element with an id of "profile-card", and it has a data attribute data-status that is initially set to "inactive". The card also contains some text indicating the user's name.
+
+a) Retrieve the current status
+b) Update the status if needed
+c) Update the styling dynamically
+Change the background color of the profile card to "lightblue" and the text color to "pink".
+d) Update the text content
+Use innerText to append " (Active)" to the current text of the profile card.
+e) Wrap the updated text
+Use innerHTML to wrap the entire updated text inside a <strong> tag.
+For example, if the text becomes "User: John Doe (Active)", the final HTML inside the <div> should be <strong>User: John Doe (Active)</strong>.
+
+
+----------------------------------------------------------------------------------------
+
+Problem 3: Notification Message Update
+a) Use getAttribute to check if data-read is "false".
+b) Use setAttribute to update data-read to "true".
+c) Use dynamic style to change the text color to "red" (indicating attention).
+d) Use innerText to append " (Read)" to the current notification text.
+e) Use innerHTML to wrap the final text inside an <em> tag.
+----------------------------------------------------------------------------------------
+
+Problem 4: Product Price Tag Update
+a) Use getAttribute to read the data-discount attribute.
+b) If the discount is "none", use setAttribute to change it to "applied".
+c) Use dynamic style to change the text color to "orange" (to highlight a discount).
+d) Use innerText to append " (Discount Applied)" to the price.
+e) Use innerHTML to wrap the updated text inside a <strong> tag.
+----------------------------------------------------------------------------------------
+
+Problem 5: Alert Box Activation
+a) Use getAttribute to read the data-active attribute.
+b) If the state is "off", use setAttribute to change data-active to "on".
+c) Use dynamic style to set the border to "2px solid yellow" and background color to "lightyellow". 
+d) Use innerText to update the text to "Alert: System Active". 
+e) Use innerHTML to wrap the updated text inside a <b> tag.
+
+----------------------------------------------------------------------------------------
+
+Problem 7: Dynamic Status Badge Upgrade
+a) Use getAttribute to check the data-level attribute (possible values: "basic", "advanced", "elite"). 
+b) Use getAttribute to check the data-upgraded attribute (possible values: "no", "yes"). 
+c) Based on the following logic:
+- If data-level is "basic" and data-upgraded is "no":
+- Use setAttribute to change data-level to "advanced" and data-upgraded to "yes".
+- Use dynamic style to set the background color to "silver" and text color to "blue".
+- Use innerText to append " (Upgraded to Advanced)" to the current text.
+- Use innerHTML to wrap the updated text in a <u> tag.
+
+- If data-level is "advanced" and data-upgraded is "no":
+- Use setAttribute to change data-level to "elite" and data-upgraded to "yes".
+- Use dynamic style to set the background color to "gold" and text color to "black".
+- Use innerText to append " (Upgraded to Elite)" to the current text.
+- Use innerHTML to wrap the updated text in a <strong> tag.
+
+If data-upgraded is "yes", do nothing (no changes). 
