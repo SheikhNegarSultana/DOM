@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling dom properties</title>
+
+    <!-- Task 1 Css -->
+    <style>
+        .light-mode {
+            background-color: white;
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+        .dark-mode {
+            background-color: black;
+            color: white;
+        }
+    </style>
+
+    <!-- Task 2 Css -->
+    <style>
+        .active-menu {
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+
+    <!-- Task 3 Css -->
+    <style>
+        .hidden {
+            display: none;
+        }
+        .visible {
+            display: block;
+            width: 200px;
+            height: 100px;
+            background-color: lightcoral;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+
+    <!-- Task 4 Css -->
+    <style>
+        #hover-box {
+            width: 200px;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+            background-color: gray;
+            color: white;
+            transition: 0.3s ease;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- Task 1 -->
+    <div id="theme-box" class="light-mode">This is Light Mode</div>
+    <button id="toggle-theme">Toggle Theme</button>
+
+    <!-- Task 2 -->
+    <ul id="nav-bar">
+        <li class="menu-item">Home</li>
+        <li class="menu-item">About</li>
+        <li class="menu-item">Services</li>
+        <li class="menu-item">Contact</li>
+    </ul>
+
+    <!-- Task 3 -->
+    <button id="show-btn">Show Box</button>
+    <button id="hide-btn">Hide Box</button>
+    <div id="hidden-box" class="hidden">This is a hidden box</div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- Task 4 -->
+    <div id="hover-box">Hover over me!</div>
+
+    <script src="js.js"></script>
+</body>
+</html>
