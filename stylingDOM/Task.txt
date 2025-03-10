@@ -1,0 +1,28 @@
+Problem 1 : Toggle Dark Mode
+You have a webpage with a div that contains some text. The div has a default class "light-mode". There is also a button labeled "Toggle Theme".
+
+a) When the button is clicked, toggle between light mode and dark mode by adding and removing CSS classes.
+b) Update the styling properties dynamically when switching modes.
+
+----------------------------------------------------------------------------------------
+
+Problem 2 : Highlight Active Menu Item
+You have a navigation bar with multiple menu items. When a user clicks on a menu item:
+
+a) The clicked menu item should be highlighted by adding a CSS class (active-menu).
+b) The previously active menu item should have the highlight removed.
+
+----------------------------------------------------------------------------------------
+
+Problem 3 : Show & Hide a Box
+You have a box on the page that should be hidden by default.
+
+a) When a Show Box button is clicked, the box appears by adding a class.
+b) When a Hide Box button is clicked, the box disappears by removing the class.
+
+----------------------------------------------------------------------------------------
+
+Problem 4 : Change Text & Background on Hover
+
+You have a div that changes its background color and text color when hovered over, using JavaScript styling properties.
+
